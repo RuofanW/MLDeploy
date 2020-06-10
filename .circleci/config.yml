@@ -16,7 +16,6 @@ jobs:
             chmod +x ./scripts/fetch_kaggle_dataset.sh
             ./scripts/fetch_kaggle_dataset.sh
             py.test -vv packages/regression_model/tests
-
 workflows:
   version: 2
   test-all:
